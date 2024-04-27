@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Listing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="nav">
+        <div> <h1> Product Listing Page </h1> </div>
+        <div><select id="category" >
+            <option disabled="disabled" selected="select">Choose Category</option>
+            <option value="electronics">Electronics</option>
+            <option value="jewelery">Jewellery</option>
+            <option value="men's clothing">Men Clothing</option>
+            <option value="women's clothing">Women Clothing</option>
+        </select>
+          <input type="text" id="inputSearch">
+          <button id="btn">🔍</button>
+       </div>
+       <div>
+         <select  id="priceSelect">
+            <option disabled="disabled" selected="select">Price Range</option>
+             <option value="asc">Price : Low to High </option>
+             <option value="desc">Price : High to Low </option>
+         </select>
+       </div>
+    </div>
+    <div id="root"></div>
+</body>
+<script src="script.js">   
+</script>
+
+</html>
